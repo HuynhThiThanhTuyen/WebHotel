@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url(../css/Flaticon.eot);
+    src: url("../css/Flaticon.eot?#iefix") format("embedded-opentype"), url(../css/Flaticon.woff) format("woff"), url(../css/Flaticon.ttf) format("truetype"), url("../css/Flaticon.svg#Flaticon") format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("../css/Flaticon.svg#Flaticon") format("svg")
+    }
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px
+}
+
+.flaticon-tag:before {
+    content: "\f100"
+}
+
+.flaticon-food:before {
+    content: "\f101"
+}
+
+.flaticon-bed:before {
+    content: "\f102"
+}
+
+.flaticon-child:before {
+    content: "\f103"
+}
+
+.flaticon-calendar:before {
+    content: "\f104"
+}
+
+.flaticon-plate:before {
+    content: "\f105"
+}
+
+.flaticon-map:before {
+    content: "\f106"
+}
+
+.flaticon-swimmer:before {
+    content: "\f107"
+}
+
+.flaticon-healthy-lifestyle-logo:before {
+    content: "\f108"
+}
+
+.flaticon-businessmen-having-a-group-conference:before {
+    content: "\f109"
+}
